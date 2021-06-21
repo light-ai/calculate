@@ -197,6 +197,7 @@ class ResultProvider extends ChangeNotifier {
   void returnResult(double a){
     processNumber = double.parse(result);
     resultNumber = processNumber*a;
+    result = resultNumber.toString();
   }
 
   void rigidResult(String number){
