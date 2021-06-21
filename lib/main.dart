@@ -48,6 +48,15 @@ class MyHomePage extends StatelessWidget {
               ),
             ),
             Positioned(
+              top: 560,
+              left: 50,
+              child: Consumer<ResultProvider>(
+                builder: (context, model, child) {
+                  return model.rigidTextWidget(200, 200, "シルバニア吉江");
+                },
+              ),
+            ),
+            Positioned(
               top: 160,
               left: 50,
               child: Consumer<ResultProvider>(
@@ -130,6 +139,15 @@ class MyHomePage extends StatelessWidget {
             ),
             Positioned(
               top: 460,
+              left: 50,
+              child: Consumer<ResultProvider>(
+                builder: (context, model, child) {
+                  return model.rigidButton("!");
+                },
+              ),
+            ),
+            Positioned(
+              top: 460,
               left: 150,
               child: Consumer<ResultProvider>(
                 builder: (context, model, child) {
@@ -143,6 +161,15 @@ class MyHomePage extends StatelessWidget {
               child: Consumer<ResultProvider>(
                 builder: (context, model, child) {
                   return model.calculateButton("C");
+                },
+              ),
+            ),
+            Positioned(
+              top: 520,
+              left: 270,
+              child: Consumer<ResultProvider>(
+                builder: (context, model, child) {
+                  return model.calculateButton(".");
                 },
               ),
             ),
