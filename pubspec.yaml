@@ -39,11 +39,11 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: 'lib/assets/krul.jpg'
+  image_path: 'lib/assets/krul.png'
 
 flutter_native_splash:
-  image: "lib/assets/krul.jpg"
-  color: "b22222"
+  image: "lib/assets/krul.png"
+  color: "FFCCCC"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
